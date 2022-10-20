@@ -46,18 +46,37 @@ div.people {
 
 }
 
+.people:hover {
+    background-image: url(https://picsum.photos/id/237/3500/2095);
+    background-size: cover;
+}
+
 div.upper-bar {
     background-color: gray;
-    width: 8rem;
+    width: 9rem;
+    height: 1.5rem;
+    text-align: center;
+
+    color: white;
+    position: absolute;
+    bottom: 95%;
+    left: 87%;
+    border-radius: 1rem;
+
+
+}
+
+div.side-bar {
+    background-color: gray;
+    width: 2rem;
     height: 1.5rem;
     text-align: center;
     font-weight: bold;
     color: white;
     position: absolute;
     bottom: 95%;
-    left: 85%;
-
-
+    left: 97%;
+    border-radius: 1rem;
 }
 
 span.name {
@@ -68,4 +87,71 @@ span.name {
     top: 80%;
     font-size: small;
 
+}
+
+.flex {
+    display: flex;
+}
+
+footer {
+    background-color: #1f1f1f;
+    width: 100vw;
+    height: 10vh;
+    bottom: 0.2%;
+    position: fixed;
+    color: white;
+    flex-direction: row;
+    font-size: 0.8rem;
+}
+
+#icon-left {
+    width: 25vw;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 0.2rem;
+
+
+}
+
+#icon-center {
+    width: 50vw;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 0.2rem;
+    
+
+}
+
+#icon-right {
+    width: 25vw;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+span.icons {
+    display: flex;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-size: 1.7rem;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+
+#exit {
+    background-color: #3f3f3f;
+    color: red;
+    width: 5rem;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: smaller;
+
+}
+
+p {
+    display: flex;
+    justify-content: center;
 }
