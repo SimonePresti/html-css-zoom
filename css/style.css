@@ -56,7 +56,6 @@ div.upper-bar {
     width: 9rem;
     height: 1.5rem;
     text-align: center;
-
     color: white;
     position: absolute;
     bottom: 95%;
@@ -96,7 +95,7 @@ span.name {
 footer {
     background-color: #1f1f1f;
     width: 100vw;
-    height: 10vh;
+    height: 4rem;
     bottom: 0.2%;
     position: fixed;
     color: white;
